@@ -23,7 +23,7 @@ Flutter3をインストール後、`flutter doctor` の結果がオールグリ�
 - 依存関係にある諸々を一旦アンイストールはせず全てバージョンアップした
 - その際、何ヶ所かで詰まった
   - 特にiOS(Xcode)とAndroidStudio
-  - 最後に残ったCocoaPods1.9.->1.13のエラーではRuby、Gem、rbenvも関わってきた
+  - 最後に残ったCocoaPods1.9.1->1.13.0のエラーではRuby、Gem、rbenvも関わってきた
   - rbenvを介してGemでActive Supportのバージョンを7.1.0から7.0.8に下げて解決
 
 
