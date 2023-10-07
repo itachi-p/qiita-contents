@@ -23,12 +23,18 @@ QiitaCLIのテスト用記事
 
 ### new article body h3
 
+/#### Markdownのエスケープ
+
 *hoge* _hoge_ **hoge** __hoge__ ***hoge***
 ~~huga~~
 
+# 非対応っぽい記法[^1] :face_with_rolling_eyes:
 ==huga==
 h~2~SO~4~
 sinθ^2^ + cosθ^2^ = 1
+
+$h~2SO~4$
+$sinθ^2 + cosθ^2 = 1$
 
 <details>
 <summary>audio contents:</summary>
@@ -40,10 +46,14 @@ sinθ^2^ + cosθ^2^ = 1
 </details>
 
 #画像
-![ビスカッチャ](https://livedoor.sp.blogimg.jp/karapaia_zaeega/imgs/c/6/c6fd2293.jpg)  
+![ビスカッチャ](https://livedoor.sp.blogimg.jp/karapaia_zaeega/imgs/c/6/c6fd2293.jpg "とろ～ん")
 
 #リンク
-[Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+[Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d "Qiita Markdown")
+
+#リンクカード
+
+https://qiita.com/Qiita/items/c686397e4a0f4f11683d
 
 #コードブロック(シンタックスハイライト)
 
@@ -67,6 +77,8 @@ function fancyAlert(arg) {
 ```math
 \frac{1}{n} \sum_{i=1}^{n} x_{i}^{2}
 ```
+
+$fibo = \\{0, 1, 1, 2, 3, 5, 8\\}$
 
 #表
 | hoge | huga | piyo |
@@ -110,3 +122,41 @@ function fancyAlert(arg) {
 `rgba(0,255,0,0.4)`
 `hsl(100, 10%, 10%)`
 `hsla(100, 24%, 40%, 0.5)`
+
+:::note info
+インフォメーション
+infoは省略可能です。
+:::
+
+:::note warn
+警告
+○○に注意してください。
+:::
+
+:::note alert
+より強い警告
+○○しないでください。
+:::
+
+#ダイアグラム
+
+```plantuml
+Bob->Alice : Hello!
+```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
+flowchart LR
+   a --> b & c--> d
+```
+
+---
+
+[^1]: ハイライトは未対応の模様
