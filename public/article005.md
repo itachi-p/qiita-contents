@@ -3,7 +3,7 @@ title: 'testing QiitaCLI: artuicue2023_01'
 tags:
   - QiitaCLI
 private: false
-updated_at: '2023-10-07T18:21:11+09:00'
+updated_at: '2023-10-07T18:30:46+09:00'
 id: a14db39530af376f507d
 organization_url_name: null
 slide: false
