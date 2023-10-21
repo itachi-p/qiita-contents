@@ -124,7 +124,7 @@ npx qiita new 記事のファイルのベース名
 
 > 記事のファイル名を`newArticle001.md`にしたい場合は`newArticle001`にします。
 >
-> 例): `$ npx qiita new newArticle001`
+> 例）: `$ npx qiita new newArticle001`
 
 作成された記事ファイルの中身は次のようになっています。
 
